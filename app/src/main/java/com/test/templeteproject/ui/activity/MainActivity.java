@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.test.templeteproject.R;
+import com.test.templeteproject.base.BaseActivity;
 import com.test.templeteproject.bean.dittoresponse.DittoResponse;
 import com.test.templeteproject.http.Http;
 import com.test.templeteproject.http.NetworkUtil;
@@ -13,7 +14,7 @@ import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
